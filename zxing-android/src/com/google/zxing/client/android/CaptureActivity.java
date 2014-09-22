@@ -16,6 +16,7 @@
 
 package com.google.zxing.client.android;
 
+import com.google.vrtoolkit.cardboard.*;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -63,7 +64,7 @@ import java.util.Map;
  * @author dswitkin@google.com (Daniel Switkin)
  * @author Sean Owen
  */
-public final class CaptureActivity extends Activity implements SurfaceHolder.Callback {
+public final class CaptureActivity extends CardboardActivity implements SurfaceHolder.Callback {
 
   private static final String TAG = CaptureActivity.class.getSimpleName();
 
